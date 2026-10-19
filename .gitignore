@@ -1,0 +1,5 @@
+﻿[Bb]in/
+[Oo]bj/
+publish/
+publish_self_contained/
+*.exe

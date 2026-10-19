@@ -1,0 +1,3 @@
+D:\CLASS\lập trình trực quan\Publish\bai5\publish_self_contained\bai5.pdb
+D:\CLASS\lập trình trực quan\Publish\bai5\publish_self_contained\appsettings.json
+D:\CLASS\lập trình trực quan\Publish\bai5\publish_self_contained\bai5.exe

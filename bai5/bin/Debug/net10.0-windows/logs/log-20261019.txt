@@ -1,0 +1,90 @@
+2026-10-19 10:59:59.968 [INF] === Khởi động ứng dụng Quản lý đặt tour ===
+2026-10-19 11:00:05.578 [WRN] Địa chỉ chính lấy tỷ giá thất bại (https://cdn.jsdelivr.net/npm/@fawazahmed0/currencyapi@latest/v1/currencies/thb.json). Lý do: Response status code does not indicate success: 404 (Not Found).. Đang tự động chuyển sang địa chỉ dự phòng...
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at bai5.Services.TyGiaService.LayTyGiaChiTietAsync(String ngoaiTe) in D:\CLASS\lập trình trực quan\Publish\bai5\Services\TyGiaService.cs:line 64
+2026-10-19 11:00:06.018 [INF] Lấy tỷ giá THB thành công từ địa chỉ dự phòng (latest.currency-api.pages.dev): 772.0067 VND
+2026-10-19 11:00:06.628 [WRN] Địa chỉ chính lấy tỷ giá thất bại (https://cdn.jsdelivr.net/npm/@fawazahmed0/currencyapi@latest/v1/currencies/krw.json). Lý do: Response status code does not indicate success: 404 (Not Found).. Đang tự động chuyển sang địa chỉ dự phòng...
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at bai5.Services.TyGiaService.LayTyGiaChiTietAsync(String ngoaiTe) in D:\CLASS\lập trình trực quan\Publish\bai5\Services\TyGiaService.cs:line 64
+2026-10-19 11:00:06.945 [INF] Lấy tỷ giá KRW thành công từ địa chỉ dự phòng (latest.currency-api.pages.dev): 19.3868 VND
+2026-10-19 11:00:07.619 [WRN] Địa chỉ chính lấy tỷ giá thất bại (https://cdn.jsdelivr.net/npm/@fawazahmed0/currencyapi@latest/v1/currencies/usd.json). Lý do: Response status code does not indicate success: 404 (Not Found).. Đang tự động chuyển sang địa chỉ dự phòng...
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at bai5.Services.TyGiaService.LayTyGiaChiTietAsync(String ngoaiTe) in D:\CLASS\lập trình trực quan\Publish\bai5\Services\TyGiaService.cs:line 64
+2026-10-19 11:00:07.963 [INF] Lấy tỷ giá USD thành công từ địa chỉ dự phòng (latest.currency-api.pages.dev): 25,873.5578 VND
+2026-10-19 11:00:07.964 [INF] Lấy tỷ giá THB từ bộ nhớ đệm (Cache): 772.0067 VND
+2026-10-19 11:00:08.422 [INF] === Kết thúc ứng dụng Quản lý đặt tour ===
+2026-10-19 11:03:41.966 [INF] === Khởi động ứng dụng Quản lý đặt tour ===
+2026-10-19 11:03:43.205 [ERR] Lỗi giao diện WinForms chưa được xử lý (ThreadException)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.DataGridViewBand.set_Thickness(Int32 value)
+   at bai5.FormMain.LoadDanhSachTour() in D:\CLASS\lập trình trực quan\Publish\bai5\FormMain.cs:line 107
+   at bai5.FormMain.FormMain_Load(Object sender, EventArgs e) in D:\CLASS\lập trình trực quan\Publish\bai5\FormMain.cs:line 36
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_0(Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2026-10-19 11:03:47.681 [INF] === Kết thúc ứng dụng Quản lý đặt tour ===
+2026-10-19 11:03:48.986 [INF] === Khởi động ứng dụng Quản lý đặt tour ===
+2026-10-19 11:03:49.941 [ERR] Lỗi giao diện WinForms chưa được xử lý (ThreadException)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.DataGridViewBand.set_Thickness(Int32 value)
+   at bai5.FormMain.LoadDanhSachTour() in D:\CLASS\lập trình trực quan\Publish\bai5\FormMain.cs:line 107
+   at bai5.FormMain.FormMain_Load(Object sender, EventArgs e) in D:\CLASS\lập trình trực quan\Publish\bai5\FormMain.cs:line 36
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_0(Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2026-10-19 11:03:54.435 [INF] === Kết thúc ứng dụng Quản lý đặt tour ===
+2026-10-19 11:03:55.522 [INF] === Khởi động ứng dụng Quản lý đặt tour ===
+2026-10-19 11:03:56.486 [ERR] Lỗi giao diện WinForms chưa được xử lý (ThreadException)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Windows.Forms.DataGridViewBand.set_Thickness(Int32 value)
+   at bai5.FormMain.LoadDanhSachTour() in D:\CLASS\lập trình trực quan\Publish\bai5\FormMain.cs:line 107
+   at bai5.FormMain.FormMain_Load(Object sender, EventArgs e) in D:\CLASS\lập trình trực quan\Publish\bai5\FormMain.cs:line 36
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_0(Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbackHelper(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Windows.Forms.Control.InvokeMarshaledCallbacks()
+2026-10-19 11:04:01.472 [INF] === Kết thúc ứng dụng Quản lý đặt tour ===
+2026-10-19 11:07:49.498 [INF] === Khởi động ứng dụng Quản lý đặt tour ===
+2026-10-19 11:07:51.220 [WRN] Địa chỉ chính lấy tỷ giá thất bại (https://cdn.jsdelivr.net/npm/@fawazahmed0/currencyapi@latest/v1/currencies/thb.json). Lý do: Response status code does not indicate success: 404 (Not Found).. Đang tự động chuyển sang địa chỉ dự phòng...
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at bai5.Services.TyGiaService.LayTyGiaChiTietAsync(String ngoaiTe) in D:\CLASS\lập trình trực quan\Publish\bai5\Services\TyGiaService.cs:line 64
+2026-10-19 11:07:51.572 [INF] Lấy tỷ giá THB thành công từ địa chỉ dự phòng (latest.currency-api.pages.dev): 772.0067 VND
+2026-10-19 11:07:51.789 [WRN] Địa chỉ chính lấy tỷ giá thất bại (https://cdn.jsdelivr.net/npm/@fawazahmed0/currencyapi@latest/v1/currencies/krw.json). Lý do: Response status code does not indicate success: 404 (Not Found).. Đang tự động chuyển sang địa chỉ dự phòng...
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at bai5.Services.TyGiaService.LayTyGiaChiTietAsync(String ngoaiTe) in D:\CLASS\lập trình trực quan\Publish\bai5\Services\TyGiaService.cs:line 64
+2026-10-19 11:07:52.075 [INF] Lấy tỷ giá KRW thành công từ địa chỉ dự phòng (latest.currency-api.pages.dev): 19.3868 VND
+2026-10-19 11:07:52.387 [WRN] Địa chỉ chính lấy tỷ giá thất bại (https://cdn.jsdelivr.net/npm/@fawazahmed0/currencyapi@latest/v1/currencies/usd.json). Lý do: Response status code does not indicate success: 404 (Not Found).. Đang tự động chuyển sang địa chỉ dự phòng...
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at bai5.Services.TyGiaService.LayTyGiaChiTietAsync(String ngoaiTe) in D:\CLASS\lập trình trực quan\Publish\bai5\Services\TyGiaService.cs:line 64
+2026-10-19 11:08:00.291 [INF] Lấy tỷ giá USD thành công từ địa chỉ dự phòng (latest.currency-api.pages.dev): 25,873.5578 VND
+2026-10-19 11:08:00.292 [INF] Lấy tỷ giá THB từ bộ nhớ đệm (Cache): 772.0067 VND
+2026-10-19 11:08:01.069 [INF] Lấy tỷ giá THB từ bộ nhớ đệm (Cache): 772.0067 VND
+2026-10-19 11:08:01.204 [INF] === Kết thúc ứng dụng Quản lý đặt tour ===
+2026-10-19 11:09:27.055 [INF] === Khởi động ứng dụng Quản lý đặt tour ===
+2026-10-19 11:09:28.645 [WRN] Địa chỉ chính lấy tỷ giá thất bại (https://cdn.jsdelivr.net/npm/@fawazahmed0/currencyapi@latest/v1/currencies/thb.json). Lý do: Response status code does not indicate success: 404 (Not Found).. Đang tự động chuyển sang địa chỉ dự phòng...
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at bai5.Services.TyGiaService.LayTyGiaChiTietAsync(String ngoaiTe) in D:\CLASS\lập trình trực quan\Publish\bai5\Services\TyGiaService.cs:line 64
+2026-10-19 11:09:30.261 [INF] Lấy tỷ giá THB thành công từ địa chỉ dự phòng (latest.currency-api.pages.dev): 772.3266 VND
+2026-10-19 11:10:02.494 [INF] === Kết thúc ứng dụng Quản lý đặt tour ===

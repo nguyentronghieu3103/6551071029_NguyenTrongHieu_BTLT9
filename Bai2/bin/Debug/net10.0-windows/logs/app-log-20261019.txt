@@ -1,0 +1,3 @@
+2026-10-19 09:42:24.964 +07:00 [INF] Ứng dụng 'Quản lý nhà trọ' bắt đầu khởi động.
+2026-10-19 09:47:30.118 +07:00 [INF] Ứng dụng 'Quản lý nhà trọ' bắt đầu khởi động.
+2026-10-19 09:49:05.809 +07:00 [INF] Ứng dụng kết thúc.

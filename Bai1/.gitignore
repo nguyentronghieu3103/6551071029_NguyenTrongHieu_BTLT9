@@ -1,0 +1,13 @@
+# Visual Studio & Build Outputs
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Configuration files containing credentials / local environment overrides
+appsettings.Development.json
+appsettings.secrets.json
+
+# Application logs
+Logs/

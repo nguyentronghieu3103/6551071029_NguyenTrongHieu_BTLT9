@@ -1,0 +1,7 @@
+2026-10-19 10:39:04.751 [INF] === Khởi động ứng dụng Bán hàng quán trà sữa ===
+2026-10-19 10:39:09.767 [INF] Tạo mã QR VietQR cho đơn hàng 9999 với số tiền 50,000 đ
+2026-10-19 10:39:11.617 [INF] === Ứng dụng Bán hàng quán trà sữa kết thúc ===
+2026-10-19 10:42:02.131 [INF] === Khởi động ứng dụng Bán hàng quán trà sữa ===
+2026-10-19 10:42:15.842 [INF] Tạo mã QR VietQR cho đơn hàng 1 với số tiền 65,000 đ
+2026-10-19 10:42:21.589 [INF] Lưu thành công hóa đơn HD2 hình thức Chuyển khoản, tổng tiền 65,000 đ
+2026-10-19 10:42:43.671 [INF] Tạo mã QR VietQR cho đơn hàng 3 với số tiền 180,000 đ
